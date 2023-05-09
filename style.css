@@ -57,3 +57,12 @@ body{
     display: flex;
     justify-content: space-between;
 }
+.pie {
+    background-color: #4EA5D9;
+    height: 70px;
+}
+#pie_text {
+    margin: 0px;
+    font-size: 14px;
+    text-align: center;
+}
