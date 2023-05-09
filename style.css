@@ -21,3 +21,39 @@ body{
     font-size: 18px;
     border: solid 1px black;
 }
+.cuerpo {
+    height: 450px;
+}
+.img_primero {
+    height: 450px;
+    background-color:  #4EA5D9;
+
+}
+.img_primero img{
+    width: 350px;
+    margin-top: 30px;
+}
+.img_primero h4 {
+    text-align: center;
+    margin-top: 10px;
+}
+.img_segundo {
+    background-color: #4EA5D9;
+}
+.img_segundo img {
+    width: 350px;
+    margin-top: 30px;
+}
+.img_segundo h4 {
+    text-align: center;
+    margin-top: 10px;
+}
+.texto {
+   text-align: center;
+   padding-top: 165px;
+   background-color: #4EA5D9;
+}
+#caja_padre {
+    display: flex;
+    justify-content: space-between;
+}
