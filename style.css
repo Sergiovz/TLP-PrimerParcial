@@ -1,0 +1,23 @@
+body{
+    background-color: #224870;
+}
+.encabezado {
+    height: 70px;
+    background-color: #4EA5D9;
+}
+.caja_nombre{
+    margin-top: 14px;
+}
+.caja_nombre h4 {
+    font-size: 27px;
+}
+.navegador {    
+    margin-top: 14px;
+}
+.navegador ul li a {
+    font-size: 19px;
+}
+.navegador ul li a:hover {
+    font-size: 18px;
+    border: solid 1px black;
+}
