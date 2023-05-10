@@ -1,9 +1,17 @@
 body{
-    background-color: #224870;
+    /*background-color: #224870;*/
+    /*background-color: #ffffff ;*/
+    background: linear-gradient(175deg, #fff, #5e115e);
 }
+    /*Inicio del Header en Index*/
 .encabezado {
-    height: 70px;
-    background-color: #4EA5D9;
+    /*height: 86px;*/
+    /*background-color: #E8D2AE;*/
+    /*background-color: #8cce91;*/
+    background-color: #cda9e08a;
+}
+.cuerpo {
+    height: 455px;
 }
 .caja_nombre{
     margin-top: 14px;
@@ -20,49 +28,73 @@ body{
 .navegador ul li a:hover {
     font-size: 18px;
     border: solid 1px black;
-}
-.cuerpo {
-    height: 450px;
-}
-.img_primero {
-    height: 450px;
-    background-color:  #4EA5D9;
+    /*border: solid 1px #fff;*/
+}   /*Final del Header en Index*/
 
+    /*Inicio del Main en Index*/
+.img_primero {
+    /*background-color:  #4EA5D9;*/
 }
 .img_primero img{
     width: 350px;
     margin-top: 30px;
+    box-shadow: 0 0 14px 0 #000000
 }
-.img_primero h4 {
+.img_primero a h4 {
     text-align: center;
     margin-top: 10px;
 }
 .img_segundo {
-    background-color: #4EA5D9;
+    /*background-color: #4EA5D9;*/
 }
 .img_segundo img {
     width: 350px;
     margin-top: 30px;
+    box-shadow: 0 0 14px 0 #000000;
 }
 .img_segundo h4 {
     text-align: center;
     margin-top: 10px;
 }
 .texto {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
    text-align: center;
-   padding-top: 165px;
-   background-color: #4EA5D9;
-}
+   flex-wrap: wrap;
+   /*background-color: #4EA5D9;*/
+ }
 #caja_padre {
     display: flex;
     justify-content: space-between;
-}
+}   /*Final del Main en Index*/
+
+    /*Inicio del Footer en Index*/
 .pie {
-    background-color: #4EA5D9;
-    height: 70px;
+    /*background-color: #4EA5D9;*/
+    background-color: #cda9e08a;
 }
 #pie_text {
     margin: 0px;
     font-size: 14px;
     text-align: center;
+}   /*Final del Footer en Index*/
+
+/*Inicio de la Segunda Página "About"*/
+    /*Inicio del Main en About*/
+.informacion h2 {
+    font-size: 30px;
+}
+
+.descripcion {
+    /*background-color: #5e115e;*/
+}
+.descripcion img {
+    height: 350px;
+    margin: 0 3px;
+    box-shadow: 0 0 14px 0 #000000;
+    border-radius: 200px;
+}
+.conocimiento {
+    height: 500px;
 }
