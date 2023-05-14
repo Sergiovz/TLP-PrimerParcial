@@ -10,12 +10,12 @@
   </head>
   <body>
     <header class="container encabezado mt-2 rounded border border-black">
-        <div class="row d-flex">
-            <div class="caja_nombre col-sm-12 col-lg-2">
-                <h4 class="ms-3">Segio Valdez</h4>
+        <div class="row">
+            <div class="caja_nombre d-flex justify-content-center align-items-center col-sm-12 col-md-4 col-lg-3">
+                <h4>Segio Valdez</h4>
             </div>
-            <nav class="navegador offset-lg-2 col-sm-12 col-lg-8">
-                <ul class="nav d-flex justify-content-around">
+            <nav class="navegador col-sm-12 col-md-8 offset-lg-1 col-lg-8">
+                <ul class="nav d-flex justify-content-evenly">
                     <li class="nav-item"><a href="index.html" class="nav-link btn text-dark">Home</a></li>
                     <li class="nav-item"><a href="about.html" class="nav-link btn text-dark">About</a></li>
                     <li class="nav-item"><a href="contact.html" class="nav-link btn text-dark">Contact</a></li>
@@ -24,16 +24,31 @@
         </div>
     </header>
 
-    <main class="container contact mt-3">
+    <main class="container contact bg-secondary-subtle border mt-5">
         <section class="row">
-            <figcaption class="col-6">
-                <img class="imagen_facebook" src="img/facebook.jfif" alt="imagen del logo de Facebook">
-                <img class="imagen_instagram" src="img/instagram.jfif" alt="imagen del logo de Instagsam">
-            </figcaption>
+            <h2 class="text-center mt-3">CONTACTAME AQUÍ</h2>
+        </section>
+        <section class="row mt-3">
+            <picture class="col-sm-12 col-md-6 col-lg-3 text-center mt-2">
+                <img class="img_contact rounded-circle border img-fluid" src="img/facebook.jpg" alt="imagen del logo de Facebook">
+                <p>Facebook</p>
+            </picture>
+            <picture class="col-sm-12 col-md-6 col-lg-3 text-center mt-2">
+                <img class="img_contact rounded-circle border img-fluid" src="img/instagram.jpg" alt="imagen del logo de Instagsam">
+                <p>Instagram</p>
+            </picture>
+            <picture class="col-sm-12 col-md-6 col-lg-3 text-center mt-2">
+                <img class="img_contact rounded-circle border img-fluid" src="img/linkedin.jpg" alt="imagen del logo de Instagsam">
+                <p>LinKedIn</p>
+            </picture>
+            <picture class="col-sm-12 col-md-6 col-lg-3 text-center mt-2">
+                <img class="img_contact rounded-circle border img-fluid" src="img/whatsapp.jpg" alt="imagen del logo de Instagsam">
+                <p>Whatsapp</p>
+            </picture>
         </section>
     </main>
 
-    <footer class="container pie border border-black rounded mt-3 col-12 col-lg-12 ">
+    <footer class="container border border-black rounded mt-5 col-12 col-lg-12 pie">
         <p id="pie_text">2023</p>
         <p id="pie_text">&copy Sergio Valdez</p>
         <p id="pie_text">Argentina-Formosa</p>

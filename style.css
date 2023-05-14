@@ -1,43 +1,28 @@
-body{
-    /*background-color: #224870;*/
-    /*background-color: #ffffff ;*/
-    background: linear-gradient(175deg, #fff, #5e115e);
+body {
+    background-color: rgb(250, 250, 250);
 }
     /*Inicio del Header en Index*/
 .encabezado {
-    /*height: 86px;*/
-    /*background-color: #E8D2AE;*/
-    /*background-color: #8cce91;*/
-    background-color: #cda9e08a;
-}
-
-.caja_nombre{
-    margin-top: 14px;
+    background-color: rgb(240, 240, 240);
 }
 .caja_nombre h4 {
     font-size: 25px;
-    text-align: center;
-}
-.navegador {    
-    margin-top: 14px;
 }
 .navegador ul li a {
-    font-size: 19px;
+    font-size: 20px;
+    margin-top: 1px;
 }
 .navegador ul li a:hover {
-    font-size: 18px;
-    border: solid 1px black;
-    /*border: solid 1px #fff;*/
+    font-size: 19px;
+    background-color: blueviolet;
 }   /*Final del Header en Index*/
 
     /*Inicio del Main en Index*/
 .img_primero {
-    /*background-color:  #4EA5D9;*/
     text-align: center;
 }
 .img_primero img{
     width: 350px;
-    margin-top: 30px;
     box-shadow: 0 0 14px 0 #000000
 }
 .img_primero a h4 {
@@ -45,35 +30,21 @@ body{
     margin-top: 10px;
 }
 .img_segundo {
-    /*background-color: #4EA5D9;*/
     text-align: center;
 }
 .img_segundo img {
     width: 350px;
-    margin-top: 30px;
     box-shadow: 0 0 14px 0 #000000;
 }
 .img_segundo h4 {
     text-align: center;
     margin-top: 10px;
-}
-.texto {
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   text-align: center;
-   flex-wrap: wrap;
-   /*background-color: #4EA5D9;*/
- }
-#caja_padre {
-    display: flex;
-    justify-content: space-between;
-}   /*Final del Main en Index*/
+} /*Final del Main en Index*/
 
     /*Inicio del Footer en Index*/
 .pie {
     /*background-color: #4EA5D9;*/
-    background-color: #cda9e08a;
+    background-color: rgb(240, 240, 240);
 }
 #pie_text {
     margin: 0px;
@@ -99,26 +70,18 @@ body{
     align-items: center;
 }
 .descripcion img {
-    height: 200px;
     margin: 0 3px;
-    box-shadow: 0 0 14px 0 #000000;
+    box-shadow: 0 0 19px #000000;
     border-radius: 200px;
 }
-.imagen_js {
-    height: 180px;
-}
-.imagen_react {
-    height: 180px;
-}
-
-.imagen_python {
+.img_conf {
     height: 180px;
 } /*Final del Main en About*/
 
 /*Inicio de la Tercera pagina "Contact"*/
-.imagen_instagram {
-    height: 180px;
+.img_contact {
+    height: 100px;
 }
-.imagen_facebook {
-    height: 180px;
+picture .img_contact:hover {
+    height: 90px;
 }
