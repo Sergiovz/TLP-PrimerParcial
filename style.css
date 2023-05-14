@@ -5,32 +5,24 @@ body {
 .encabezado {
     background-color: rgb(240, 240, 240);
 }
-
-.caja_nombre{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 .caja_nombre h4 {
     font-size: 25px;
 }
 .navegador ul li a {
     font-size: 20px;
+    margin-top: 1px;
 }
 .navegador ul li a:hover {
     font-size: 19px;
-    border: solid 1px black;
-    /*border: solid 1px #fff;*/
+    background-color: blueviolet;
 }   /*Final del Header en Index*/
 
     /*Inicio del Main en Index*/
 .img_primero {
-    /*background-color:  #4EA5D9;*/
     text-align: center;
 }
 .img_primero img{
-    /*width: 350px;*/ box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-    margin-top: 30px;
+    width: 350px;
     box-shadow: 0 0 14px 0 #000000
 }
 .img_primero a h4 {
@@ -38,30 +30,16 @@ body {
     margin-top: 10px;
 }
 .img_segundo {
-    /*background-color: #4EA5D9;*/
     text-align: center;
 }
 .img_segundo img {
-    /*width: 350px;*/
-    margin-top: 30px;
+    width: 350px;
     box-shadow: 0 0 14px 0 #000000;
 }
 .img_segundo h4 {
     text-align: center;
     margin-top: 10px;
-}
-.texto {
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   text-align: center;
-   flex-wrap: wrap;
-   /*background-color: #4EA5D9;*/
- }
-#caja_padre {
-    display: flex;
-    justify-content: space-between;
-}   /*Final del Main en Index*/
+} /*Final del Main en Index*/
 
     /*Inicio del Footer en Index*/
 .pie {
@@ -96,15 +74,14 @@ body {
     box-shadow: 0 0 19px #000000;
     border-radius: 200px;
 }
- /*Final del Main en About*/
+.img_conf {
+    height: 180px;
+} /*Final del Main en About*/
 
 /*Inicio de la Tercera pagina "Contact"*/
-.imagen_instagram {
-    /*height: 180px;*/
+.img_contact {
+    height: 100px;
 }
-.imagen_facebook {
-    /*height: 180px;*/
-}
-.img-conf {
-    height: 180px;
+picture .img_contact:hover {
+    height: 90px;
 }
